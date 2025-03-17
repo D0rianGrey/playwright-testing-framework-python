@@ -1,0 +1,52 @@
+# Временные файлы Python и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+pytestdebug.log
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи
+logs/
+*.log
+
+# Отчеты о тестировании и артефакты тестов
+reports/
+reports/screenshots/
+reports/videos/
+test-results/
+**/test-results/
+playwright-report/
+**/playwright-report/
+playwright/.cache/
+
+# Пользовательские конфигурационные файлы
+.env
+.env.local
+*.ini.local
+config/local_config.py
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints/
+
+# Временные файлы ОС
+.DS_Store
+Thumbs.db

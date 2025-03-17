@@ -1,1 +1,5 @@
 source venv/bin/activate
+
+pytest tests/ui/test_login.py
+
+python run_tests.py
